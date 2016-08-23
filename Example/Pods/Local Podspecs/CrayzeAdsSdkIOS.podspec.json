@@ -1,9 +1,9 @@
 {
   "name": "CrayzeAdsSdkIOS",
   "version": "0.1.0",
-  "summary": "A short description of CrayzeAdsSdkIOS.",
+  "summary": "The Crayze Ads SDK for iOS.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/CrayzeAdsSdkIOS",
+  "homepage": "https://github.com/crayzeapp/CrayzeAdsSDKiOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "Amitay Molko": "amitaymolko@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/CrayzeAdsSdkIOS.git",
+    "git": "https://github.com/crayzeapp/CrayzeAdsSDKiOS.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CrayzeAdsSdkIOS/Classes/**/*"
+  "vendored_frameworks": "CrayzeAdsSdkIOS/Classes/CrayzeAdsSDK.framework"
 }

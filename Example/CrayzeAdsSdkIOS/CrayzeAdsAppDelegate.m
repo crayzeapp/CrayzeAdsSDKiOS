@@ -7,12 +7,19 @@
 //
 
 #import "CrayzeAdsAppDelegate.h"
+#import <CrayzeAdsSDK/CrayzeAdsSDK.h>
+//#import "CrayzeAdsSDK.h"
 
 @implementation CrayzeAdsAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [CrayzeSDK sharedInstance].appToken = @"578a7d1470ea9";
+//    [CrayzeSDK sharedInstance].testMode = @YES;
+
+    [[CrayzeSDK sharedInstance] loadApp];
+//    [[CrayzeSDK sharedInstance] printIDFA];
+
     return YES;
 }
 

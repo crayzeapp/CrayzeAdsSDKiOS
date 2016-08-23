@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D7F3998BCEDBE10B2D11089F0F9DB2034BE0C555",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D7F3998BCEDBE10B2D11089F0F9DB2034BE0C555" : 0,
+    "2878DA562C8CD043EDD85DE7F944DE5E86D03362" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DCA49B04-A87F-43F8-937B-5A0EBE3E56FA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D7F3998BCEDBE10B2D11089F0F9DB2034BE0C555" : "CrayzeAdsSdkIOS\/",
+    "2878DA562C8CD043EDD85DE7F944DE5E86D03362" : "CrayzeAdsSDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CrayzeAdsSdkIOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/CrayzeAdsSdkIOS.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:crayze\/crayzeadssdkios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2878DA562C8CD043EDD85DE7F944DE5E86D03362"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/crayzeapp\/CrayzeAdsSDKiOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D7F3998BCEDBE10B2D11089F0F9DB2034BE0C555"
+    }
+  ]
+}

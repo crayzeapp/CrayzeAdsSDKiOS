@@ -3,7 +3,9 @@ This application makes use of the following third party libraries:
 
 ## CrayzeAdsSdkIOS
 
-Copyright (c) 2016 Amitay Molko <amitaymolko@gmail.com>
+The MIT License (MIT)
+
+Copyright (c) 2016 Crayze Media LTD
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -14,6 +16,7 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in
 all copies or substantial portions of the Software.
+stantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

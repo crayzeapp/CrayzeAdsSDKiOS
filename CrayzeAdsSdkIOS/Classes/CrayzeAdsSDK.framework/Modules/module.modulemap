@@ -1,0 +1,6 @@
+framework module CrayzeAdsSDK {
+  umbrella header "CrayzeAdsSDK.h"
+
+  export *
+  module * { export * }
+}

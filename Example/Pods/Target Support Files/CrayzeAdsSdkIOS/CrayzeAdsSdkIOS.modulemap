@@ -1,6 +1,0 @@
-framework module CrayzeAdsSdkIOS {
-  umbrella header "CrayzeAdsSdkIOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
