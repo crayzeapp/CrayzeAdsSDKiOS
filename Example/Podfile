@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'CrayzeAdsSdkIOS_Example' do
+  pod 'CrayzeAdsSdkIOS', :path => '../'
+
+  target 'CrayzeAdsSdkIOS_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
