@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CrayzeAdsSdkIOS'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'The Crayze Ads SDK for iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.vendored_frameworks = "CrayzeAdsSdkIOS/Classes/CrayzeAdsSDK.framework"
+  s.vendored_frameworks = 'CrayzeAdsSdkIOS/Classes/CrayzeAdsSDK.framework'
 #s.source_files = 'CrayzeAdsSdkIOS/Classes/**/*'
 #s.source_files = 'CrayzeAdsSdkIOS/Classes/**/*', 'CrayzeAdsSDK.framework/Headers/*.h'
 
