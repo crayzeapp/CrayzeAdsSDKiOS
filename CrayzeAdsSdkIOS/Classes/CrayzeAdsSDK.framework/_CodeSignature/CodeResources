@@ -6,7 +6,7 @@
 	<dict>
 		<key>CrayzePlacementView.nib</key>
 		<data>
-		6FYX2LGas5vb2sPqzXU3b4Qs18Y=
+		sn5OnIfKexOP0kdVvTzrpZPQ3KU=
 		</data>
 		<key>Headers/CrayzeAdsSDK.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yhSwyrxC8FqIbGU4UDKdc8PQNI0=
+		SOgzBMiMAdN1/xEaE3FhQmE9imY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6FYX2LGas5vb2sPqzXU3b4Qs18Y=
+			sn5OnIfKexOP0kdVvTzrpZPQ3KU=
 			</data>
 			<key>hash2</key>
 			<data>
-			wgB7TIc4+w7pP8j0Xs1f1sWCn/2jiVEy0A8TDEOcVvw=
+			bhLHhxuZ5XUUm9uaQseVM57cPhYRGcFOL5arOyDsBgs=
 			</data>
 		</dict>
 		<key>Headers/CrayzeAdsSDK.h</key>
