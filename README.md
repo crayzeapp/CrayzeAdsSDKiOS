@@ -28,13 +28,13 @@ In the applicationdidFinishLaunchingWithOptions function in AppDelegate add the 
 ## Test Mode
 Test Mode can be enabled globally in the code or per device.
 
-# enable global test mode:
+### enable global test mode:
 Add the following code to the AppDelegate:
 ```objective-c
 [CrayzeSDK sharedInstance].testMode = @YES;
 ```
 
-# Test User
+### Test User
 To get your IDFA you can add the following line to your AppDelegate:
 ```objective-c
 [[CrayzeSDK sharedInstance] printIDFA];
