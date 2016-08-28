@@ -44,10 +44,10 @@ Then go to your App Edit page and add a new test user.
 ## Disabling App Transport Security:
 
 To disable App Transport Security, you will need to set a couple keys in your app's info.plist file:
-1. In your app target, click on "Info" at the top, then right-click on the list and select "Add Row"
-2. In the row that appears, type "NSAppTransportSecurity", and change the type to "Dictionary"
-3. Expand that new "NSAppTransportSecurity" key (arrow next to name should point down), right-click that key and select "Add Row"; new row should be a child of the "NSAppTransportSecurity" key
-4. Name that new child row "NSAllowsArbitraryLoads"; set the type to "Boolean", and set it's value to "YES"
+1. In your app target, click on "Info" at the top, then right-click on the list and select "Add Row"  
+2. In the row that appears, type "NSAppTransportSecurity", and change the type to "Dictionary"  
+3. Expand that new "NSAppTransportSecurity" key (arrow next to name should point down), right-click that key and select "Add Row"; new row should be a child of the "NSAppTransportSecurity" key  
+4. Name that new child row "NSAllowsArbitraryLoads"; set the type to "Boolean", and set it's value to "YES"  
 
 Afterwards, the keys should look like this:
 
