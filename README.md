@@ -48,6 +48,7 @@ To disable App Transport Security, you will need to set a couple keys in your ap
 2. In the row that appears, type "NSAppTransportSecurity", and change the type to "Dictionary"
 3. Expand that new "NSAppTransportSecurity" key (arrow next to name should point down), right-click that key and select "Add Row"; new row should be a child of the "NSAppTransportSecurity" key
 4. Name that new child row "NSAllowsArbitraryLoads"; set the type to "Boolean", and set it's value to "YES"
+
 Afterwards, the keys should look like this:
 
 ![Image of Disabling App Transport Security](https://github.com/crayzeapp/CrayzeAdsSDKiOS/blob/master/transport.png)
