@@ -28,7 +28,7 @@ In the applicationdidFinishLaunchingWithOptions function in AppDelegate add the 
 ## Test Mode
 Test Mode can be enabled globally in the code or per device.
 
-### enable global test mode:
+### Enable global test mode:
 Add the following code to the AppDelegate:
 ```objective-c
 [CrayzeSDK sharedInstance].testMode = @YES;
@@ -50,7 +50,7 @@ To disable App Transport Security, you will need to set a couple keys in your ap
 4) Name that new child row "NSAllowsArbitraryLoads"; set the type to "Boolean", and set it's value to "YES"
 Afterwards, the keys should look like this:
 
-![Image of Disabling App Transport Security](https://github.com/crayzeapp/CrayzeAdsSDKiOS/transport.png)
+![Image of Disabling App Transport Security][[https://github.com/crayzeapp/CrayzeAdsSDKiOS/blob/master/transport.png]]
 
 
 ## License
