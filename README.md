@@ -21,7 +21,7 @@ pod "CrayzeAdsSdkIOS"
 ## Initialization
 
 In the applicationdidFinishLaunchingWithOptions function in AppDelegate add the following code:
-```
+```objective-c
 [CrayzeSDK sharedInstance].appToken = @"your_app_token_here";
 [[CrayzeSDK sharedInstance] loadApp];
 ```
@@ -30,13 +30,13 @@ Test Mode can be enabled globally in the code or per device.
 
 # enable global test mode:
 Add the following code to the AppDelegate:
-```
+```objective-c
 [CrayzeSDK sharedInstance].testMode = @YES;
 ```
 
 # Test User
 To get your IDFA you can add the following line to your AppDelegate:
-```
+```objective-c
 [[CrayzeSDK sharedInstance] printIDFA];
 ```
 Then go to your App Edit page and add a new test user.
