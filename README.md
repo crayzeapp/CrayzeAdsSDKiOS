@@ -27,13 +27,20 @@ In the applicationdidFinishLaunchingWithOptions function in AppDelegate add the 
 ```
 
 ## Add Placement
-Start by going to your app's edit page.
-Add a placement and set the identifier to something simple that represents the placement like: 'main', 'week-view', 'dashboard', 'about-page'.
-Then in Xcode:
+Start by going to your app's edit page.  
+
+Add a placement and set the identifier to something simple that represents the placement like: 'main', 'week-view', 'dashboard', 'about-page'.  
+
+Then in Xcode:  
+
 In your storyboard add a new View.  
-Set the view's class to CrayzePlacementView in the Identity Inspector.
-Then in the Attributes Inspector set the placement identifier for that placement.
-Thats it :)
+
+Set the view's class to CrayzePlacementView in the Identity Inspector.  
+
+Then in the Attributes Inspector set the placement identifier for that placement.  
+
+Thats it :)  
+
 
 ## Test Mode
 Test Mode can be enabled globally in the code or per device.
