@@ -45,6 +45,9 @@
                             <constraint firstItem="VvI-8d-gwe" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="8" id="htw-15-UFt"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="placementView" destination="VvI-8d-gwe" id="Fcr-WX-hSS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

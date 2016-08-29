@@ -7,8 +7,11 @@
 //
 
 #import "CrayzeAdsViewController.h"
+#import <CrayzeAdsSDK/CrayzeAdsSDK.h>
 
 @interface CrayzeAdsViewController ()
+
+@property (strong, nonatomic) IBOutlet CrayzePlacementView *placementView;
 
 @end
 
@@ -17,6 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _placementView.placementId = @"main";
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
